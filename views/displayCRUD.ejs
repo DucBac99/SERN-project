@@ -29,7 +29,7 @@
                 <td><%= user.phoneNumber %></td>
                 <td>
                     <a type="button" href="/edit-crud?id=<%= user.id %>" class="btn btn-outline-primary">Edit</a>
-                    <a type="button" href="" class="btn btn-outline-secondary">Delete</a>
+                    <a type="button" href="/delete-crud?id=<%= user.id %>" class="btn btn-outline-secondary">Delete</a>
                 </td>
             </tr>
             <% }); %>
